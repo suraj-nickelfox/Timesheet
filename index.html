@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Tickspot Insight</title>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+         .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+    </style>
+</head>
+<body>
+          <nav class="black">
+                    <div class="nav-wrapper ">
+                      <a href="#" class="brand-logo">&nbsp&nbspTimesheet</a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+                           <li>  
+                                <div class="upload-btn-wrapper">
+                                   <button class="btn">Upload a file</button> &nbsp&nbsp&nbsp&nbsp
+                                   <input id="file-csv" type="file" accept="image/*" capture="user">
+                                 </div>
+                           </li>          
+                       
+                      </ul>
+                    </div>
+                  </nav>
+
+
+          <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>    
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+ <script src="script.js"></script>
+</body>
+</html>
